@@ -51,7 +51,7 @@ public class IllustrationPagePanel extends PixivPagePanel {
         pageLabel[0].setHorizontalAlignment(SwingConstants.CENTER);
 
         JLabel title = new JLabel(info[0].getTitle());
-        title.setBounds(20 + 25 + 120, 130 + illustLabel[0].getHeight() + 30, 600, 42);
+        title.setBounds(20 + 25 + 120, 130 + illustLabel[0].getHeight() + 30, Main.sc.width - (20 + 25 + 120 + 10), 42);
         title.setFont(new Font("MS PGothic", Font.PLAIN, 42));
         title.setHorizontalAlignment(JLabel.LEFT);
 
