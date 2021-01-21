@@ -45,7 +45,7 @@ public class PixivPagePanel extends JPanel {
                         illustrationFrame.setVisible(true);
                         illustrationFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
                     }catch (PixivException | IOException | ParseException err) {
-                        JOptionPane.showMessageDialog(null, err.toString() + ":" + err.getMessage(), "錯誤", JOptionPane.WARNING_MESSAGE);
+                        JOptionPane.showMessageDialog(null, err.toString(), "錯誤", JOptionPane.WARNING_MESSAGE);
                     }
                 }
             }
