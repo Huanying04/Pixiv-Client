@@ -11,6 +11,7 @@
 
 ## 已知BUG
 * 主畫面LOAD完後可能不會跑出畫面，要試著去移動視窗等視窗操作才會顯示出來？
+* Okhttp A connection to http://www.pixiv.net/ was leaked
 
 ## 可能需要修復的地方？
 * 主畫面跑很久，還沒有LOADING畫面出現
